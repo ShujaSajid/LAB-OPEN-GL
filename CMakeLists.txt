@@ -7,8 +7,8 @@ enable_testing()
 set (CMAKE_CXX_FLAGS "-lglfw -lGL -lGLU -lglut -lX11 -lpthread -lXrandr -lXi -ldl")
 
 add_executable(LabOpenGL #main.cpp
-                         #chess.cpp
-                         triangle.cpp   
+                         chess.cpp
+                         #triangle.cpp   
                          glad/glad.c)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
